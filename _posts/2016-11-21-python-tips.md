@@ -5,7 +5,8 @@ date:   2016-11-21 21:40:16 +0800
 categories: python
 ---
 ## 1.enumerate函数：
-enumerate 函数用于遍历序列中的元素以及它们的下标：  
+enumerate 函数用于遍历序列中的元素以及它们的下标：
+
 ``` python
 >>> for i,j in enumerate(('a','b','c')):
         print i,j
@@ -19,6 +20,7 @@ enumerate 函数用于遍历序列中的元素以及它们的下标：
 
 ### 临时使用：
 可以在使用pip的时候加参数`-i https://pypi.tuna.tsinghua.edu.cn/simple` ,例如：
+
 ```
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple gevent
 ```
