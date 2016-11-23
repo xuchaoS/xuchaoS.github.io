@@ -35,5 +35,5 @@ date -s **：**：**
 ```
 /dev/sdb1       /media      ext3    defaults       0       1
 ```
-
+  
 其中 `/media` 这个挂载的目录你自己设置即可
