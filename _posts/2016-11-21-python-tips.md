@@ -7,13 +7,17 @@ categories: python
 ## 1.enumerate函数：
 enumerate 函数用于遍历序列中的元素以及它们的下标：  
 {% highlight python %}
+{% endhighlight %}
+
+```
 >>> for i,j in enumerate(('a','b','c')):
         print i,j
          
 0 a
 1 b
 2 c 
-{% endhighlight %}
+```
+
 ## 2.Pip 使用其他更新源：
 
 ### 临时使用：  
