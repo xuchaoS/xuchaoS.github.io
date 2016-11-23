@@ -28,11 +28,13 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple gevent
 
 ### 永久修改，一劳永逸：
 * Linux下，修改 `~/.pip/pip.conf` (没有就创建一个)， 修改 `index-url`至`tuna`，内容如下：
+
 ```
 [global]
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 * windows下，直接在`user`目录中创建一个pip目录，如：`C:\Users\xx\pip`，新建文件`pip.ini`，内容如下
+
 ```
 [global]
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
