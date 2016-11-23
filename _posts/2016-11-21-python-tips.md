@@ -6,14 +6,14 @@ categories: python
 ---
 ## 1.enumerate函数：  
 enumerate 函数用于遍历序列中的元素以及它们的下标：  
-```python
+{% highlight python %}
 >>> for i,j in enumerate(('a','b','c')):
         print i,j
          
 0 a
 1 b
 2 c 
-```
+{% endhighlight %}
 ## 2.Pip 使用其他更新源：  
 ### 临时使用：  
 可以在使用pip的时候加参数`-i https://pypi.tuna.tsinghua.edu.cn/simple` ,例如：  
