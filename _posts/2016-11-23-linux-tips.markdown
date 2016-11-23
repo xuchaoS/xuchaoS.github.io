@@ -6,8 +6,10 @@ categories: linux
 ---
 ## 1. ubuntu修改启动顺序：
 `/etc/default/grub`中的`GRUB_DEFAULT`，修改完`sudo update-grub`
+
 ## 2. 流量监控：
 `sa r -n DEV 1 3600`
+
 ## 3. 改时间
 ```
 date -s **/**/**
@@ -16,8 +18,10 @@ date -s **：**：**
 
 ## 4. 改时区
 `tzselect`
+
 ## 5. 删除大量文件
 `find . -name *** -delete` 
+
 ## 6. 添加新硬盘：
 * `fdisk -l` 查看新添加的硬盘
 * `fdisk /dev/sd* n p \n \n w` 创建硬盘分区
