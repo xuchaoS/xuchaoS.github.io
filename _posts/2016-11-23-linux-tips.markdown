@@ -30,8 +30,9 @@ date -s **：**：**
 1. 手动挂载：使用 `mount /dev/sd*1 /` 要挂载的目录（自己自定义）
 访问时：`cd /` 挂载的目录,即可对其进行存储和访问
 2. 自动挂载：修改 `/etc/fstab` 即可
-使用 `vim /etc/fstab` 打开配置的文件，然后将下面的一行文字添加即可  
-``` shell
-/dev/sdb1       /media      ext3    defaults       0       1
-#其中 /media 这个挂载的目录你自己设置即可
-```
+使用 `vim /etc/fstab` 打开配置的文件，然后将下面的一行文字添加即可
+
+        ``` shell
+        /dev/sdb1       /media      ext3    defaults       0       1
+        #其中 /media 这个挂载的目录你自己设置即可
+        ```
