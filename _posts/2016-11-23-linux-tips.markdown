@@ -13,12 +13,10 @@ categories: linux
 `sa r -n DEV 1 3600`
 
 ## 3. 改时间
-
 ```
 date -s **/**/**
 date -s **：**：**
 ```
-
 ## 4. 改时区
 
 `tzselect`
