@@ -8,7 +8,7 @@ categories: linux
 `/etc/default/grub`中的`GRUB_DEFAULT`，修改完`sudo update-grub`
 
 ## 2. 流量监控：
-`sa r -n DEV 1 3600`
+`sar -n DEV 1 3600`
 
 ## 3. 改时间
 
