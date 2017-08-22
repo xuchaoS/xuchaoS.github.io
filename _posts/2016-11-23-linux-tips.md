@@ -42,3 +42,12 @@ date -s **：**：**
 
 ## 修复硬盘
 `fsck`
+
+## 修改网络配置
+```
+nmcli con show #列出目前可用的网络连接
+nmcli dev status #检查可用设备
+nmcli con add type ethernet con-name "connection-name" ifname "interface-name" #添加动态以太网连接
+nmcli con up "connection-name" #激活以太网连接
+nmcli con add type ethernet con-name "connection-name" ifname "interface-name" ip4 "address/mask" gw4 "address" #添加静态以太网连接
+```
