@@ -51,3 +51,25 @@ nmcli con add type ethernet con-name "connection-name" ifname "interface-name" #
 nmcli con up "connection-name" #激活以太网连接
 nmcli con add type ethernet con-name "connection-name" ifname "interface-name" ip4 "address/mask" gw4 "address" #添加静态以太网连接
 ```
+
+## 定时任务
+### crontab的文件格式
+分 时 日 月 星期 要运行的命令
+
+第1列分钟0～59  
+第2列小时0～23（0表示子夜）  
+第3列日1～31  
+第4列月1～12  
+第5列星期0～7（0和7表示星期天）  
+第6列要运行的命令  
+
+如`0,15,30,45 18-06 * * * /bin/echo `date` > dev/tty1`
+
+### crontab命令
+```
+crontab -l # 列出当前的定时任务
+crontab -r # 删除定时任务
+crontab "filename" # 添加定时任务
+
+```
+
