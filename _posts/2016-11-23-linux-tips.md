@@ -63,7 +63,7 @@ nmcli con add type ethernet con-name "connection-name" ifname "interface-name" i
 第5列星期0～7（0和7表示星期天）  
 第6列要运行的命令  
 
-如`0,15,30,45 18-06 * * * /bin/echo `date` > dev/tty1`
+如``0,15,30,45 18-06 * * * /bin/echo `date` > dev/tty1``
 
 ### crontab命令
 ```
